@@ -154,7 +154,7 @@
   <div class="widget">
     <h3 class="widget-title">Archive</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -181,21 +181,6 @@
             </div>
           </li>
           
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2021/06/25/hello-world/" class="title">Hello World</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2021-06-25T08:29:30.449Z" itemprop="datePublished">2021-06-25</time>
-              </p>
-            </div>
-          </li>
-          
       </ul>
     </div>
   </div>
@@ -208,63 +193,178 @@
   
   <main class="main" role="main">
   
-  <div class="content article-list">
+  
+    <div class="content">
+  <article id="post-Markdown-Tutorial" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
+    <div class="article-header">
+      
+        
   
     <h1 itemprop="name">
       <a class="article-title" href="/2021/06/25/Markdown-Tutorial/">Markdown Tutorial</a>
     </h1>
   
 
-  </div>
-  
-  <p class="article-meta">
-    <span class="article-date">
+      
+      <div class="article-meta">
+        <span class="article-date">
     <i class="icon icon-calendar-check"></i>
 	<a href="/2021/06/25/Markdown-Tutorial/" class="article-date">
-	  <time datetime="2021-06-25T08:34:45.000Z" itemprop="datePublished">Jun 25</time>
+	  <time datetime="2021-06-25T08:34:45.000Z" itemprop="datePublished">2021-06-25</time>
 	</a>
 </span>
-    
-    
+        
+        
 
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/25/Markdown-Tutorial/#comments" class="article-comment-link">Comments</a></span>
-    
-  </p>
-</article>
+        
 
-    
-      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-header">
-    
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/06/25/hello-world/">Hello World</a>
-    </h1>
-  
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/25/Markdown-Tutorial/#comments" class="article-comment-link">Comments</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ol>
+<li>自截止修改本文最后时间2021年6月24日起，markdown语法规则可能会随着时间的推移发生变化，最新的语法规则以<a target="_blank" rel="noopener" href="https://github.com/DavidAnson/markdownlint/blob/v0.23.1/doc/Rules.md">https://github.com/DavidAnson/markdownlint/blob/v0.23.1/doc/Rules.md</a>为准。  </li>
+<li>命令标点应在英文标点的环境下输入  </li>
+<li>本文使用的软件Typora为开源软件,可在<a target="_blank" rel="noopener" href="https://www.typora.io/">https://www.typora.io/</a>下载对应的版本。</li>
+</ol>
+<h2 id="段落格式"><a href="#段落格式" class="headerlink" title="段落格式"></a>段落格式</h2><p>在编写的文字后加入两个空格(<kbd>space</kbd>+<kbd>space</kbd>)表示开启下一段落（具体视觉效果为空出一行）<br>等效于直接空出一行<br>这里给出菜鸟教程RUNOOB.COM上的截图演示:<br><img src="Markdown-Tutorial.assets/%E6%AE%B5%E8%90%BD%E6%A0%BC%E5%BC%8F.PNG" alt="段落格式"></p>
+<h2 id="代码块的插入"><a href="#代码块的插入" class="headerlink" title="代码块的插入"></a>代码块的插入</h2><p>先输入三个<kbd>`</kbd>+(代码语言) 表示代码块的开始,<br>接着按<kbd>enter</kbd>在下一行中开始输入代码,<br>最后再输入三个<kbd>`</kbd>表示代码块的结束</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">···python</span><br><span class="line">···</span><br></pre></td></tr></table></figure>
 
+<p>依次按<kbd>ctrl</kbd>+<kbd>enter</kbd>从代码块中跳出到笔记的下一行  </p>
+<p>实际效果:  </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello world!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="标题的写法"><a href="#标题的写法" class="headerlink" title="标题的写法"></a>标题的写法</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># &#x27;title name&#x27;一级标题</span></span><br><span class="line"><span class="section">## &#x27;title name&#x27;二级标题</span></span><br><span class="line"><span class="section">### &#x27;title name&#x27;三级标题</span></span><br><span class="line"><span class="section">#### &#x27;title name&#x27;四级标题</span></span><br><span class="line"><span class="section">##### &#x27;title name&#x27;五级标题</span></span><br><span class="line"><span class="section">###### &#x27;title name&#x27;六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>在typora中按<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd>打开大纲视角</p>
+<h2 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">加粗:</span><br><span class="line"><span class="strong">**加粗**</span></span><br><span class="line">斜体:</span><br><span class="line"><span class="emphasis">*斜体*</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*粗斜体<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">粗斜体</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">代码高亮显示:</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">==代码高亮显示==</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">删除线:</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">~~删除线~~</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">下划线:</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong"><span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span>下划线<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">脚注:</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="strong"><span class="emphasis"><span class="strong">[^要注明的文本]</span></span></span></span></span><br></pre></td></tr></table></figure>
+
+<p>实际效果:<br><strong>加粗</strong><br><em>斜体</em><br><em><strong>粗斜体</strong></em><br>==代码高亮显示==<br><del>删除线</del><br></u>下划线</u><br>[^要注明的文本]</p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>建立分割线的方法有很多，具体为以下五种:  </p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*(推荐使用这种分割线写法)</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">*</span> <span class="emphasis">* *</span></span></span><br><span class="line"><span class="strong">**</span><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">- - -</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">----------  </span></span></span><br></pre></td></tr></table></figure>
+
+<p>实际效果:  </p>
+<hr>
+<h2 id="区块层级"><a href="#区块层级" class="headerlink" title="区块层级"></a>区块层级</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;author:beautifuldog01</span><br><span class="line">&gt;&gt;author:beautifuldog01</span><br><span class="line">&gt;&gt;&gt;author:beautifuldog01</span><br></pre></td></tr></table></figure>
+
+<p>可通过逐次按<kbd>Ctrl</kbd>+<kbd>[</kbd>离开区块层级</p>
+<p>实际效果:  </p>
+<blockquote>
+<p>author:beautifuldog01</p>
+<blockquote>
+<p>author:beautifuldog01</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>author:beautifuldog01</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>无序列表  </p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">*</span> 第二项</span><br><span class="line"><span class="bullet">*</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">+</span> 第一项</span><br><span class="line"><span class="bullet">+</span> 第二项</span><br><span class="line"><span class="bullet">+</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br><span class="line"><span class="bullet">-</span> 第三项</span><br></pre></td></tr></table></figure>
+
+<p>实际效果:</p>
+<ul>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+<li><p>第一项</p>
+</li>
+<li><p>第二项</p>
+</li>
+<li><p>第三项</p>
+</li>
+</ul>
+<p>有序列表  </p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+
+<p>实际效果:</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项:</span><br><span class="line"><span class="bullet">    -</span> 第一项嵌套的第一个元素</span><br><span class="line"><span class="bullet">    -</span> 第一项嵌套的第二个元素</span><br><span class="line"><span class="bullet">2.</span> 第二项:</span><br><span class="line"><span class="bullet">    -</span> 第二项嵌套的第一个元素</span><br><span class="line"><span class="bullet">    -</span> 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+
+<p>实际效果:</p>
+<ol>
+<li>第一项:<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项:<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p>在Typora中，你可以直接将图片拖入其中,<br>也可以用代码的方式手动添加，具体如下:  </p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 标题</span>](<span class="link">图片的文件地址</span>)</span><br><span class="line">![<span class="string">alt 标题</span>](<span class="link">图片的文件地址 &quot;可选标题&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>实际效果:<br><img src="Markdown-Tutorial.assets/typora.PNG" alt="typora"></p>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>在markdown中,用<kbd>|</kbd>分隔不同的单元格,用<kbd>-</kbd>分隔表头和其他行,具体写法如下:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>实际效果:<br>| 表头   | 表头   |<br>| —— | —— |<br>| 单元格 | 单元格 |<br>| 单元格 | 单元格 |</p>
+<h3 id="对齐方式"><a href="#对齐方式" class="headerlink" title="对齐方式"></a>对齐方式</h3><p>-: 表示内容和标题栏居右对齐<br>:-: 表示内容和标题栏居中对齐<br>:- 表示内容和标题栏居左对齐  </p>
+<p>实际效果:<br>| 左对齐 | 居中对齐 | 右对齐 |<br>| :—– | :——: | —–: |<br>| 单元格 |  单元格  | 单元格 |<br>| 单元格 |  单元格  | 单元格 |</p>
+<h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><p>markdown作为优秀的轻量级标记语言,支持html元素、LaTeX和TeX格式的数学公式，以及可以绘制流程图、时序图(顺序图)、甘特图等等。<br>更多的扩展知识可以访问<br><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">https://developer.mozilla.org/zh-CN/docs/Web/HTML</a><br><a target="_blank" rel="noopener" href="https://www.latex-project.org/help/">https://www.latex-project.org/help/</a><br>关于更多关于软件Typora的使用可以访问CSDN社区作者Simba1949的文章:<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/SIMBA1949/article/details/79001226">https://blog.csdn.net/SIMBA1949/article/details/79001226</a>  </p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://example.com/2021/06/25/Markdown-Tutorial/" title="Markdown Tutorial" target="_blank" rel="external">http://example.com/2021/06/25/Markdown-Tutorial/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/Beautifuldog01" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/Beautifuldog01" target="_blank"><span class="text-dark">Beautifuldog</span><small class="ml-1x">Student</small></a></h3>
+        <div>这是一条真的的狗！</div>
+      </div>
+    </figure>
   </div>
+</div>
+
+
+    </div>
+  </article>
   
-  <p class="article-meta">
-    <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2021/06/25/hello-world/" class="article-date">
-	  <time datetime="2021-06-25T08:29:30.449Z" itemprop="datePublished">Jun 25</time>
-	</a>
-</span>
-    
-    
+</div>
 
-    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/25/hello-world/#comments" class="article-comment-link">Comments</a></span>
-    
-  </p>
-</article>
-
-    
-  </div>
+  
 
    
 </main>
